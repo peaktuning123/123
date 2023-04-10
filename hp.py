@@ -98,9 +98,10 @@ index_of_highest_nm = nm_data_original.index(highest_nm)
 
 # Plot highest horsepower and NM points and labels
 ax.plot(index_of_highest_nm, highest_nm, 'bo')
-ax.annotate(f"{highest_nm:.2f} NM", (index_of_highest_nm, highest_nm), xytext=(index_of_highest_nm, highest_nm+4), ha='center', fontsize=12)
+ax.annotate("{:.2f} NM".format(highest_nm), (index_of_highest_nm, highest_nm), xytext=(index_of_highest_nm, highest_nm+4), ha='center', fontsize=12)
 ax.plot(index_of_highest_hp, highest_hp, 'ro')
-ax.annotate(f"{highest_hp:.2f} HP", (index_of_highest_hp, highest_hp), xytext=(index_of_highest_hp, highest_hp+4), ha='center', fontsize=12)
+ax.annotate("{:.2f} HP".format(highest_hp), (index_of_highest_hp, highest_hp), xytext=(index_of_highest_hp, highest_hp+4), ha='center', fontsize=12)
+
 
 # Add labels and legend
 ax.set_xlabel('Data')
