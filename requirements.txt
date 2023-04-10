@@ -1,5 +1,5 @@
 urllib3==1.26.12
-requests==2.28.1
+requests==2.27.1
 math
 matplotlib==3.6.2
 seaborn==0.12.2
