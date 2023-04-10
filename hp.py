@@ -79,7 +79,7 @@ for i in range(min(len(rpm_data), len(nm_data_converted))):
 # Create the plot
 fig, ax = plt.subplots()
 ax.plot(nm_data_original, 'b', label='Moment')  # display original data
-ax.plot(hp_data, 'r', label='Hestekræfter')
+ax.plot(hp_data, 'r', label='Horsepower')
 
 # Set x-axis labels
 xtick_positions = range(0, len(rpm_data), len(rpm_data) // len(rpm_data))
@@ -104,7 +104,7 @@ ax.annotate(f"{highest_hp:.2f} HP", (index_of_highest_hp, highest_hp), xytext=(i
 
 # Add labels and legend
 ax.set_xlabel('Data')
-ax.set_ylabel('Hestekræfter')
+ax.set_ylabel('Horsepower')
 ax.legend()
 
 # Add title
@@ -120,4 +120,4 @@ ax_image.axis('off')
 plt.show()
 
 # Exit message
-print("Færdig!")
+print("Done!")
