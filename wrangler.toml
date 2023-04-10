@@ -1,0 +1,11 @@
+type = "javascript"
+account_id = "87faec20c9b20a646a9f7e5c34dd3431b1c0d"
+workers_dev = true
+
+[build]
+command = "python3 main.py"
+publish = "public/"
+
+[[build.environment]]
+name = "PYTHON_VERSION"
+value = "3.9"
