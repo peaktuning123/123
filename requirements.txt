@@ -1,4 +1,4 @@
 urllib3==1.26.12
 requests==2.27.1
-matplotlib==3.6.2
-seaborn==0.12.2
+matplotlib
+seaborn
