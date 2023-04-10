@@ -3,8 +3,8 @@ account_id = "87faec20c9b20a646a9f7e5c34dd3431b1c0d"
 workers_dev = true
 
 [build]
-command = "python3 main.py"
-publish = "public/"
+command = "python3 hp.py"
+publish = "/"
 
 [[build.environment]]
 name = "PYTHON_VERSION"
